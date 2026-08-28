@@ -64,6 +64,6 @@
 
 - 若 $`\mathbf{A}`$ 对称，$`\mathbf{X}`$ 半正定，则 $`\lambda_{\mathbf{X}}=\lambda_{\mathbf{Y}}\ge 0`$ 即 $`\mu_i\ge 0`$ 得 $`p_i=0`$ 即 $`\mathbf{D}_i=\sqrt{\lambda_i}\mathbf{E}_{k_i}`$，则 $`\mathbf{Y}_i=\mathbf{R}_i\mathbf{D}_i\mathbf{R}_i^{-1}=\mathbf{D}_i`$，则 $`\mathbf{X}=\mathbf{P}diag(\sqrt{\lambda_1}\mathbf{E}_{k_1},\sqrt{\lambda_2}\mathbf{E}_{k_2},...,\sqrt{\lambda_m}\mathbf{E}_{k_m})\mathbf{P}^{-1}`$ 唯一
 
-- 若 $`k_i\equiv 1`$ 即 $`\mathbf{A}`$ 特征值互异，则 $`p_i\in\{0,1\}`$，由 $`\mathbf{Y}_i^2=[\lambda_i]`$ 得 $`\mathbf{Y}_i=[\pm\sqrt{\lambda_i}]`$，则取 $`\mathbf{D}_i=\mathbf{Y}_i`$，$`\mathbf{R}_i=\mathbf{E}_1`$，则 $`\mathbf{X}=\mathbf{P}diag(\pm\sqrt{\lambda_1},\pm\sqrt{\lambda_2},...,\pm\sqrt{\lambda_n})\mathbf{P}^{-1}`$ 有 $`2^{r(\mathbf{A})}`$ 个解
+- 若 $`k_i\equiv 1`$ 即 $`\mathbf{A}`$ 特征值互异，则 $`p_i\in\{0,1\}`$，由 $`\mathbf{Y}_i^2=[\lambda_i]`$ 得 $`\mathbf{Y}_i=[\pm\sqrt{\lambda_i}]`$，则 $`\mathbf{X}=\mathbf{P}diag(\pm\sqrt{\lambda_1},\pm\sqrt{\lambda_2},...,\pm\sqrt{\lambda_n})\mathbf{P}^{-1}`$ 有 $`2^{r(\mathbf{A})}`$ 个解
 
 - 设 $`f(x)`$ 为多项式函数，若 $`\mathbf{X}=f(\mathbf{A})`$，则 $`\mathbf{Y}=\mathbf{P}^{-1}\mathbf{X}\mathbf{P}=\mathbf{P}^{-1}f(\mathbf{A})\mathbf{P}=f(\mathbf{\Lambda})`$，则 $`\mu_i=f(\lambda_i)`$ 唯一，即 $`\mathbf{Y}_i`$ 内特征值同号，即 $`p_i\in\{0,k_i\}`$
